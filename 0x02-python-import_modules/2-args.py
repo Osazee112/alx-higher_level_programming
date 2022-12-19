@@ -4,10 +4,10 @@ if __name__ == "__main__":
     import sys
     num = len(sys.argv) - 1
     if num == 0:
-        print("0.arguments")
+        print("0 argument.s")
     elif num == 1:
-        print("1: argument")
+        print("1: argument:")
     else:
-        print("{} arguments".format(num))
+        print("{} arguments:".format(num))
     for j in range(num):
         print(" {}:{}".format(j + 1, sys.argv[j + 1]))
